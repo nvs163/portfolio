@@ -1,0 +1,24 @@
+.header-wrapper {
+  height: 94px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+}
+
+.menu-link {
+  display: inline-block;
+  color: #000;
+  padding: 10px 20px;
+  font: 14px Lato-Regular, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+  text-transform: uppercase;
+}
+
+.menu-link:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #FFBB42;
+}
