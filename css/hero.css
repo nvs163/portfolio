@@ -1,0 +1,77 @@
+.hero {
+  text-align: center;
+  padding-top: 110px;
+  font-family: OpenSans-Light, Gotham-Black, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+  background: #709DCA;
+  background-position: 50% 70%;
+}
+
+.head {
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.hero-text {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.hero-form {
+  margin-bottom: 40px;
+}
+
+.hero-input {
+  font-size: 14px;
+  color: #A9A9A9;
+  padding: 15px 40px;
+  margin-right: 10px;
+}
+
+.hero-input__icon__name,
+.hero-input__icon__mail,
+.hero-input__icon__phone {
+  position: absolute;
+  margin: 15px;
+}
+
+.hero-input__icon__name:before {
+  content: url(/img/main/hero/icon-man.png);
+}
+
+.hero-input__icon__mail:before {
+  content: url(/img/main/hero/icon-mail.png);
+}
+
+.hero-input__icon__phone:before {
+  content: url(/img/main/hero/icon-man.png);
+}
+
+.hero-button {
+  font-size: 14px;
+  padding: 15px 43px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #FFBB42;
+}
+
+.hero-img {
+  max-width: 647px;
+  margin-bottom: 20px;
+}
+
+.hero-circle {
+  display: block;
+}
+
+.hero-circle__item {
+  display: inline-block;
+  width: 13px;
+  height: 12px;
+  border: 3px solid gray;
+  border-radius: 50%;
+}
