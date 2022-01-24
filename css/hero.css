@@ -1,14 +1,13 @@
 .hero {
   text-align: center;
   padding-top: 110px;
-  font-family: OpenSans-Light, Gotham-Black, AdobeInvisFont, MyriadPro-Regular, sans-serif;
   background: #709DCA;
   background-position: 50% 70%;
 }
 
 .head {
   font-size: 35px;
-  font-weight: 700;
+  font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 5px;
   color: #fff;

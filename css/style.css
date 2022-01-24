@@ -1,10 +1,18 @@
 @import url(/css/null.css);
 @import url(/css/header.css);
 @import url(/css/hero.css);
+@import url(/css/services.css);
 
 
 .container {
   max-width: 1130px;
   margin: 0 auto;
   padding: 0 15px;
+  font-family: OpenSans-Light, Gotham-Black, AdobeInvisFont MyriadPro-Regular, sans-serif;
+}
+
+.section-header {
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
