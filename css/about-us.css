@@ -1,0 +1,50 @@
+.about-us {
+  background-color: #ffc155;
+  position: relative;
+}
+
+.about-us::before {
+  content: '';
+  width: 50%;
+  height: 100%;
+  background: url(/img/main/about-us/table.png) left top no-repeat;
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+
+.about-us__block {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.about-us__picture {
+  flex: 1 1 50%;
+}
+
+.about-us__wrap {
+  padding: 110px 0px 110px 40px;
+  background-color: #ffc155;
+  color: #fff;
+  flex: 1 1 50%;
+}
+
+.about-us-header {
+  margin-bottom: 20px;
+}
+
+.about-us__text {
+  font-size: 13px;
+  line-height: 1.5em;
+  max-width: 90%;
+  margin-bottom: 30px;
+}
+
+.about-us__button {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid #e7ad48;
+  border-radius: 5%;
+  padding: 10px 20px;
+}

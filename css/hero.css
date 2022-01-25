@@ -1,8 +1,17 @@
 .hero {
   text-align: center;
   padding-top: 110px;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 85%;
   background: #709DCA;
-  background-position: 50% 70%;
+  left: 0;
+  top: 0;
 }
 
 .head {
