@@ -24,19 +24,24 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  max-width: 550px;
+  align-content: flex-start;
+  flex: 0 0 48%;
   margin-bottom: 30px;
 }
 
 .services-card__icon {
   display: block;
-  width: 60px;
+  flex: 0 0 5%;
 }
 
-.services-card__text span {
-  display: inline-block;
+.services-card__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
   padding-left: 20px;
+  flex: 0 0 88%;
 }
+
 
 .services-card__header {
   font-size: 16px;
@@ -46,6 +51,6 @@
 }
 
 .services-card__description {
-  padding-right: 80px;
-  line-height: 16px;
+  padding-right: 20px;
+  line-height: 18px;
 }
