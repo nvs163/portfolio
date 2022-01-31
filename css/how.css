@@ -1,0 +1,52 @@
+.how-block {
+  padding: 110px 0px;
+  text-align: center;
+}
+
+.how-heading {
+  margin-bottom: 5px;
+}
+
+.how-description {
+  display: block;
+  margin-bottom: 78px;
+}
+
+.how-step {
+  display: flex;
+  flex: 0 1 25%;
+  margin-bottom: 89px;
+}
+
+.how-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 25px;
+}
+
+.how-wrap__img {
+  margin-bottom: 100px;
+  max-height: 57px;
+}
+
+.how-wrap__number {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+
+.how-wrap__desription {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.how-link {
+  color: #fff;
+  background-color: rgba(255, 187, 66, 1);
+  padding: 20px 30px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}

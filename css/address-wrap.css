@@ -1,0 +1,38 @@
+.address-wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 38px 0px 163px;
+  background: url(/img/main/newsletter/map.png) no-repeat;
+}
+
+.address-circle {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  line-height: 23px;
+  background-color: #adadad;
+  width: 282px;
+  height: 282px;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.address-circle::after {
+  content: '';
+  position: absolute;
+  left: 132px;
+  bottom: -23px;
+  border: 10px solid transparent;
+  border-top: 15px solid #adadad;
+}
+
+.address-heading {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}

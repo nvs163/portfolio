@@ -29,17 +29,11 @@
   margin-bottom: 30px;
 }
 
-.services-card__icon {
-  display: block;
-  flex: 0 0 5%;
-}
-
 .services-card__text {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  padding-left: 20px;
-  flex: 0 0 88%;
+  flex: 0 1 85%;
 }
 
 
