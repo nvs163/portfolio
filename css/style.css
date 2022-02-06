@@ -1,0 +1,7 @@
+@import url(/css/null.css);
+@import url(/css/header.css);
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
