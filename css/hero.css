@@ -1,0 +1,82 @@
+.hero-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 0px;
+}
+
+.hero-img {
+  max-width: 460px;
+  max-height: 646px;
+  margin-right: 120px;
+}
+
+.hero-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.author {
+  font-size: 24px;
+  display: inline-block;
+  margin-bottom: 22px;
+}
+
+.hero-title {
+  font-size: 53px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.hero-description {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 30px;
+  max-width: 400px;
+  margin-bottom: 50px;
+}
+
+.book-about {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+  margin-bottom: 34px;
+  max-width: 95%;
+}
+
+.book-about__item {
+  display: inline-block;
+  margin-bottom: 16px;
+  flex: 0 1 50%;
+}
+
+.price-favorite {
+  display: flex;
+  align-items: center;
+  margin-bottom: 73px;
+}
+
+.hero-price {
+  display: inline-block;
+  margin-right: 64px;
+  font-size: 50px;
+}
+
+.button-more {
+  background-color: #f89c02;
+  padding: 23px 59px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.button-buy {
+  background-color: #fff;
+  padding: 21px 69px;
+  color: #f89c02;
+  border: 2px solid #f89c02;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+}

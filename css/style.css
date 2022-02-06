@@ -1,7 +1,19 @@
 @import url(/css/null.css);
 @import url(/css/header.css);
+@import url(/css/hero.css);
+@import url(/css/book.css);
+@import url(/css/readers.css);
+@import url(/css/footer.css);
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
 
 .container {
   margin: 0 auto;
   max-width: 1140px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

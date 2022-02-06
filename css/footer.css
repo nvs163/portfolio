@@ -1,0 +1,32 @@
+.footer {
+  background-color: #f1f1f1;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-header {
+  font-weight: 700;
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.footer-item {
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.footer-item:last-child {
+  margin-bottom: 0px;
+}
